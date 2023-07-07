@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@100;200;300;400;500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ddd7d7;
+}
+
+header {
+    background-color: #8e9194;
+}
+
+header span img:first-child{
+    width: 100px;
+}
+
+header a {
+    color: #007500;
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 10rem;
+}
+
+.card {    
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.card:hover {
+    transform: scale(1.05)
+}
+
+.card .title {
+    background-color: #c6c7c8;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card .description {
+    padding-top: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.img img {
+    width: 30rem;
+}
+
+.card button {
+    background-color: #16a016;
+    width: 30%;
+    border: none;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    transition: 0.3s;
+}
+
+.card button:hover {
+    background-color: #007500;
+    transform: scale(1.1);
+}
+
+.card button a {
+    text-decoration: none;
+    color: black;
+}
