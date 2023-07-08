@@ -85,3 +85,34 @@ section {
     text-decoration: none;
     color: black;
 }
+
+
+@media (max-width: 500px) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 20rem;
+    }
+
+    .card img {
+        width: 19.8rem;
+    }
+}
+
+@media (max-width: 850px) {
+    section {
+        display: flex;
+
+    }
+
+    .card {
+        width: 20rem;
+    }
+
+    .card img {
+        width: 19.8rem;
+    }
+}
