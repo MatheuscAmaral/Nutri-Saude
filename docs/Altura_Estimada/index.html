@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altura Estimada</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="/docs/ico/pear-fruit-illustration-cartoon-png.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main id="container">
+        <section id="img">
+            <img src="images/design.svg" alt="ilustration">
+        </section>
+
+        <section id="calculator">
+                <form id="form">
+                    <div id="infos" class="hidden1">
+                        <a href="/home.html"><img src="images/logo.png" alt=""></a>
+                    <div id="title">
+                        <strong>Altura Estimada</strong>
+                    </div>
+                    <div class="input-box">
+                        <label for="sexo">
+                            Sexo
+                        </label>
+                        <div class="input-field">
+                            <i class="fa-solid fa-venus-mars"></i>
+                            <input type="text" id="sexo" required>
+                            <span>
+                                M/F
+                            </span>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <label for="years">
+                            Idade em anos
+                        </label>
+                        <div class="input-field">
+                            <i class="fa-regular fa-calendar-days"></i>
+                            <input type="number" id="years" required>
+                            <span>
+                                Y
+                            </span>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <label for="height">
+                            Altura em centímetros 
+                        </label>
+                        <div class="input-field">
+                            <i class="fa-solid fa-ruler"></i>
+                            <input type="number" id="height" required>
+                            <span>
+                                Cm
+                            </span>
+                        </div>
+                    </div>
+                    <button id="calculate">
+                        Calcular
+                    </button>
+                    </div>
+                    <div id="answer" class="hidden">
+
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
